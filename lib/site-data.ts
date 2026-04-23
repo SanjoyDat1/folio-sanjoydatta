@@ -206,7 +206,7 @@ export const siteData: SiteData = {
     ],
     metaTitle: "sanjoy datta — iOS engineer",
     location: null,
-    headline: "Software engineering student who ships iOS apps and builds ML systems",
+    headline: "I am a computer scientist, not a software engineer. Fix it!",
     subheadline: "Building practical software that solves real problems for students and communities. I ship complete products from design to deployment while learning new technologies.",
     gallery: [],
     ctaEmailEnc: "emh1cXaAazhHfGpwNWxrfA==",
