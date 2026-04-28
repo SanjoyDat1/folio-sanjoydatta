@@ -169,7 +169,7 @@ export const siteData: SiteData = {
         ],
       },
     ],
-    ctaText: "Get in touch",
+    ctaText: "",
     avatarUrl: "https://avatars.githubusercontent.com/u/77421859?v=4",
     bio: "Building practical software that solves real problems for students and end users. Focused on shipping complete products from design to deployment while learning new technologies.\n\nI work as a ios engineer and I've spent time on the kind of work that shows up in the projects below.",
     heroMediaUrl: null,
