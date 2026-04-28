@@ -98,36 +98,27 @@ export const siteData: SiteData = {
   },
   role: "iOS engineer",
   ctaHref: "#contact",
-  palette: "dark-studio",
+  palette: "paper-ink",
   typography: "space-grotesk-geist",
   hero: "big-number-stats",
   motif: "numbered-index",
   animation: "restrained",
   content: {
-    headline: "iOS founder and student who ships fast, learns in public, and builds mobile-first products",
-    subheadline: "Building practical software that solves real problems for students and end users. Focused on shipping complete products from design to deployment while learning new technologies.",
-    bio: "Building practical software that solves real problems for students and end users. Focused on shipping complete products from design to deployment while learning new technologies.\n\nI work as a ios engineer and I've spent time on the kind of work that shows up in the projects below.",
-    ctaText: "Get in touch",
     ctaEmail: null,
-    avatarUrl: "https://avatars.githubusercontent.com/u/77421859?v=4",
-    location: null,
-    availability: null,
-    stats: [
+    socialLinks: [
       {
-        label: "GITHUB STARS",
-        value: "5",
+        label: "GitHub",
+        href: "https://github.com/SanjoyDat1/",
       },
       {
-        label: "REPOSITORIES",
-        value: "29",
+        label: "Website",
+        href: "https://www.sanjoydat.com",
       },
       {
-        label: "FOLLOWERS",
-        value: "7",
+        label: "Email",
+        href: "mailto:sanjoyd1@uci.edu",
       },
     ],
-    heroMediaUrl: null,
-    gallery: [],
     projects: [
       {
         title: "SunnyD_NoteTaker",
@@ -178,6 +169,12 @@ export const siteData: SiteData = {
         ],
       },
     ],
+    ctaText: "Get in touch",
+    avatarUrl: "https://avatars.githubusercontent.com/u/77421859?v=4",
+    bio: "Building practical software that solves real problems for students and end users. Focused on shipping complete products from design to deployment while learning new technologies.\n\nI work as a ios engineer and I've spent time on the kind of work that shows up in the projects below.",
+    heroMediaUrl: null,
+    availability: null,
+    metaDescription: "Building practical software that solves real problems for students and end users. Focused on shipping complete products from design to deployment whil",
     skills: [
       {
         category: "Stack",
@@ -196,24 +193,26 @@ export const siteData: SiteData = {
         ],
       },
     ],
-    socialLinks: [
+    footerTagline: "iOS engineer",
+    stats: [
       {
-        label: "GitHub",
-        href: "https://github.com/SanjoyDat1/",
+        label: "GITHUB STARS",
+        value: "5",
       },
       {
-        label: "Website",
-        href: "https://www.sanjoydat.com",
+        label: "REPOSITORIES",
+        value: "29",
       },
       {
-        label: "Email",
-        href: "mailto:sanjoyd1@uci.edu",
+        label: "FOLLOWERS",
+        value: "7",
       },
     ],
-    footerTagline: "iOS engineer",
     metaTitle: "Sanjoy Datta — iOS engineer",
-    metaDescription: "Building practical software that solves real problems for students and end users. Focused on shipping complete products from design to deployment whil",
-    sectionCopy: null,
+    location: null,
+    headline: "iOS founder and student who ships fast, learns in public, and builds mobile-first products",
+    subheadline: "Building practical software that solves real problems for students and end users. Focused on shipping complete products from design to deployment while learning new technologies.",
+    gallery: [],
     ctaEmailEnc: "emh1cXaAazhHfGpwNWxrfA==",
   },
 }
