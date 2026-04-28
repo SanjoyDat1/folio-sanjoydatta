@@ -49,9 +49,9 @@
     color: var(--color-bg);
   }
 
-  /* Motif: tape-markers */
+  /* Motif: numbered-index */
   
-  .motif-tape { background-image: repeating-linear-gradient(to right, var(--color-border) 0 1px, transparent 1px 12px); }
+  .motif-index { font-feature-settings: "tnum"; }
 
 }
 
@@ -76,10 +76,10 @@
 
 @layer base {
   html[data-folio-anim] {
-    --folio-raise: 52px;
-    --folio-blur: 10px;
-    --folio-dur: 1.24s;
-    --folio-ease: cubic-bezier(0.22, 1, 0.36, 1);
+    --folio-raise: 10px;
+    --folio-blur: 0px;
+    --folio-dur: 0.48s;
+    --folio-ease: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   @keyframes folio-reveal-in {

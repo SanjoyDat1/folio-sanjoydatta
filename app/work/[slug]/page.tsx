@@ -31,12 +31,12 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
   return (
     <>
       <div className="folio-reveal" style={{ animationDelay: '0ms' }}>
-        <section className="px-6 py-16 md:px-12 md:py-24 bg-[var(--color-surface)]">
+        <section className="px-6 py-20 md:px-12 md:py-28">
           <div className="mx-auto max-w-4xl">
             <a href="/work" className="text-sm text-[var(--color-muted)] hover:text-[var(--color-fg)]">
               ← All work
             </a>
-            <h1 className="mt-4 font-display text-4xl md:text-6xl leading-[1.05] text-balance">
+            <h1 className="mt-4 font-display text-5xl md:text-7xl leading-[1.05] text-balance">
               {project.title}
             </h1>
             {project.impact ? (
@@ -56,7 +56,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
       {project.mediaUrl ? (
         <div className="folio-reveal" style={{ animationDelay: '75ms' }}>
           <section className="px-6 pb-12 md:px-12">
-            <div className="mx-auto max-w-6xl aspect-[16/9] overflow-hidden rounded-2xl bg-[var(--color-surface)]">
+            <div className="mx-auto max-w-6xl aspect-[16/9] overflow-hidden rounded-lg bg-[var(--color-surface)]">
               <img src={project.mediaUrl} alt={project.title} className="h-full w-full object-cover" />
             </div>
           </section>

@@ -5,8 +5,8 @@ import { Skills, type SkillsVariant } from '@/components/sections/skills'
 import { Contact, type ContactVariant } from '@/components/sections/contact'
 
 export const metadata: Metadata = {
-  title: "About · sanjoy datta",
-  description: "About sanjoy datta. Building practical software that solves real problems for students and communities. I ship complete products from design to deployment while learning",
+  title: "About · Sanjoy Datta",
+  description: "About Sanjoy Datta. Building practical software that solves real problems for students and end users. Focused on shipping complete products from design to deployment whil",
 }
 
 export default function AboutPage() {
@@ -19,7 +19,7 @@ export default function AboutPage() {
             <Skills data={siteData} variant="category-list" />
           </div>
           <div className="folio-reveal" style={{ animationDelay: '150ms' }}>
-            <Contact data={siteData} variant="form" />
+            <Contact data={siteData} variant="plain" />
           </div>
         </>
   )

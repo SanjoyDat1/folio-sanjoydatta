@@ -4,8 +4,8 @@ import { Projects, type ProjectsVariant } from '@/components/sections/projects'
 import { CtaBanner, type CtaBannerVariant } from '@/components/sections/cta-banner'
 
 export const metadata: Metadata = {
-  title: "Work · sanjoy datta",
-  description: "Selected projects by sanjoy datta.",
+  title: "Work · Sanjoy Datta",
+  description: "Selected projects by Sanjoy Datta.",
 }
 
 export default function WorkPage() {
@@ -25,7 +25,7 @@ export default function WorkPage() {
       </div>
       
             <div className="folio-reveal" style={{ animationDelay: '75ms' }}>
-              <Projects data={siteData} variant="masonry" />
+              <Projects data={siteData} variant="list" />
             </div>
             <div className="folio-reveal" style={{ animationDelay: '150ms' }}>
               <CtaBanner data={siteData} variant="inline" />

@@ -91,34 +91,43 @@ export type SiteData = {
 
 export const siteData: SiteData = {
   persona: {
-    name: "sanjoy datta",
-    firstName: "sanjoy",
+    name: "Sanjoy Datta",
+    firstName: "Sanjoy",
     slug: "sanjoydatta",
-    tone: "bold",
+    tone: "technical",
   },
   role: "iOS engineer",
   ctaHref: "#contact",
   palette: "dark-studio",
   typography: "space-grotesk-geist",
-  hero: "gallery-grid",
-  motif: "tape-markers",
-  animation: "cinematic",
+  hero: "big-number-stats",
+  motif: "numbered-index",
+  animation: "restrained",
   content: {
+    headline: "iOS founder and student who ships fast, learns in public, and builds mobile-first products",
+    subheadline: "Building practical software that solves real problems for students and end users. Focused on shipping complete products from design to deployment while learning new technologies.",
+    bio: "Building practical software that solves real problems for students and end users. Focused on shipping complete products from design to deployment while learning new technologies.\n\nI work as a ios engineer and I've spent time on the kind of work that shows up in the projects below.",
+    ctaText: "Get in touch",
     ctaEmail: null,
-    socialLinks: [
+    avatarUrl: "https://avatars.githubusercontent.com/u/77421859?v=4",
+    location: null,
+    availability: null,
+    stats: [
       {
-        label: "GitHub",
-        href: "https://github.com/SanjoyDat1",
+        label: "GITHUB STARS",
+        value: "5",
       },
       {
-        label: "Website",
-        href: "https://www.sanjoydat.com",
+        label: "REPOSITORIES",
+        value: "29",
       },
       {
-        label: "Email",
-        href: "mailto:sanjoyd1@uci.edu",
+        label: "FOLLOWERS",
+        value: "7",
       },
     ],
+    heroMediaUrl: null,
+    gallery: [],
     projects: [
       {
         title: "SunnyD_NoteTaker",
@@ -141,22 +150,27 @@ export const siteData: SiteData = {
         mediaUrl: "https://socialify.git.ci/SanjoyDat1/MLBotTrader/image?theme=Light&pattern=Plus&font=Inter&description=1&owner=1",
       },
       {
-        title: "skills-introduction-to-github",
-        description: "Exercise: Introduction to GitHub",
-        tags: [],
-        link: "https://github.com/SanjoyDat1/skills-introduction-to-github",
-        mediaUrl: "https://socialify.git.ci/SanjoyDat1/skills-introduction-to-github/image?theme=Light&pattern=Plus&font=Inter&description=1&owner=1",
+        title: "lahacks26",
+        description: "lahacks26 github repo",
+        tags: [
+          "TypeScript",
+        ],
+        impact: "★ 1 on GitHub",
+        link: "https://github.com/SanjoyDat1/lahacks26",
+        mediaUrl: "https://socialify.git.ci/SanjoyDat1/lahacks26/image?theme=Light&pattern=Plus&font=Inter&description=1&owner=1",
       },
       {
-        title: "bit-github-repo",
-        description: "Open-source project on GitHub.",
-        tags: [],
-        link: "https://github.com/SanjoyDat1/bit-github-repo",
-        mediaUrl: "https://socialify.git.ci/SanjoyDat1/bit-github-repo/image?theme=Light&pattern=Plus&font=Inter&description=1&owner=1",
+        title: "Meridian",
+        description: "Meridian — clinical insurance appeals workspace (AI-assisted pipeline + UI)",
+        tags: [
+          "Python",
+        ],
+        link: "https://github.com/SanjoyDat1/Meridian",
+        mediaUrl: "https://socialify.git.ci/SanjoyDat1/Meridian/image?theme=Light&pattern=Plus&font=Inter&description=1&owner=1",
       },
       {
         title: "Recent work",
-        description: "Published lights out 1, a mobile escape room game, on the iOS App Store with 150+ downloads across 22 countries and a 5-star rating. Built a Python trading bot using the alpaca API and machine learning that outperformed SPY by over 300% across 8 year",
+        description: "Published Lights Out 1, a mobile escape room game, on the iOS App Store with 150+ downloads across 22 countries and a 5-star rating—spread entirely through organic word of mouth. Built a Python trading bot using machine learning and the Alpaca API th",
         tags: [
           "execution",
           "systems",
@@ -164,20 +178,13 @@ export const siteData: SiteData = {
         ],
       },
     ],
-    ctaText: "Get in touch",
-    avatarUrl: "https://avatars.githubusercontent.com/u/77421859?v=4",
-    bio: "Building practical software that solves real problems for students and communities. I ship complete products from design to deployment while learning new technologies.\n\nI work as a ios engineer and I've spent time on the kind of work that shows up in the projects below.",
-    heroMediaUrl: null,
-    availability: null,
-    metaDescription: "Building practical software that solves real problems for students and communities. I ship complete products from design to deployment while learning",
     skills: [
       {
         category: "Stack",
         items: [
+          "TypeScript",
           "Python",
           "JavaScript",
-          "TypeScript",
-          "Swift",
         ],
       },
       {
@@ -189,26 +196,24 @@ export const siteData: SiteData = {
         ],
       },
     ],
-    footerTagline: "iOS engineer",
-    stats: [
+    socialLinks: [
       {
-        label: "GITHUB STARS",
-        value: "4",
+        label: "GitHub",
+        href: "https://github.com/SanjoyDat1/",
       },
       {
-        label: "REPOSITORIES",
-        value: "25",
+        label: "Website",
+        href: "https://www.sanjoydat.com",
       },
       {
-        label: "FOLLOWERS",
-        value: "5",
+        label: "Email",
+        href: "mailto:sanjoyd1@uci.edu",
       },
     ],
-    metaTitle: "sanjoy datta — iOS engineer",
-    location: null,
-    headline: "I am a computer scientist, not a software engineer. Fix it!",
-    subheadline: "Building practical software that solves real problems for students and communities. I ship complete products from design to deployment while learning new technologies.",
-    gallery: [],
+    footerTagline: "iOS engineer",
+    metaTitle: "Sanjoy Datta — iOS engineer",
+    metaDescription: "Building practical software that solves real problems for students and end users. Focused on shipping complete products from design to deployment whil",
+    sectionCopy: null,
     ctaEmailEnc: "emh1cXaAazhHfGpwNWxrfA==",
   },
 }

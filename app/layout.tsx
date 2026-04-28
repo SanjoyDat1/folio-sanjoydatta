@@ -13,11 +13,11 @@ const bodyFont = Geist({ subsets: ['latin'], variable: '--font-sans', display: '
 const monoFont = Geist_Mono({ subsets: ['latin'], variable: '--font-mono', display: 'swap' })
 
 export const metadata: Metadata = {
-  title: "sanjoy datta — iOS engineer",
-  description: "Building practical software that solves real problems for students and communities. I ship complete products from design to deployment while learning",
+  title: "Sanjoy Datta — iOS engineer",
+  description: "Building practical software that solves real problems for students and end users. Focused on shipping complete products from design to deployment whil",
   openGraph: {
-    title: "sanjoy datta — iOS engineer",
-    description: "Building practical software that solves real problems for students and communities. I ship complete products from design to deployment while learning",
+    title: "Sanjoy Datta — iOS engineer",
+    description: "Building practical software that solves real problems for students and end users. Focused on shipping complete products from design to deployment whil",
     type: 'website',
   },
   robots: { index: true, follow: true },
@@ -27,7 +27,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html
       lang="en"
-      data-folio-anim="cinematic"
+      data-folio-anim="restrained"
       className={`${displayFont.variable} ${bodyFont.variable} ${monoFont.variable}`}
     >
       <body>
