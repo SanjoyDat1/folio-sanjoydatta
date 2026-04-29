@@ -98,7 +98,7 @@ export const siteData: SiteData = {
   },
   role: "iOS engineer",
   ctaHref: "#contact",
-  palette: "paper-ink",
+  palette: "dark-studio",
   typography: "space-grotesk-geist",
   hero: "big-number-stats",
   motif: "numbered-index",
