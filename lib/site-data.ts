@@ -209,10 +209,10 @@ export const siteData: SiteData = {
     ],
     metaTitle: "Sanjoy Datta — iOS engineer",
     location: null,
-    headline: "iOS founder shipping fast, learning in public",
     subheadline: "Building practical software that solves real problems for students and end users. Focused on shipping complete products from design to deployment while learning new technologies.",
     gallery: [],
     ctaText: "",
+    headline: "iOS founder shipping fast, learning in public",
     ctaEmailEnc: "emh1cXaAazhHfGpwNWxrfA==",
   },
 }
